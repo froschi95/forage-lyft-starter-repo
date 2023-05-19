@@ -9,4 +9,4 @@ class SpindlerBattery(Battery):
 
     
     def needs_service(self):
-        return self.last_service_date.year + 4 < self.current_date
+        return self.last_service_date.year + 3 < self.current_date
